@@ -12,14 +12,15 @@ This repository provides an **Arduino sketch** to interface with the **XGZP6867D
 
 ## 📡 Wiring Guide
 
-| **Sensor Pin** | **Arduino (5V Logic)** | **ESP32 (3.3V Logic)** | PIN on sensor module
-|--------------|----------------|----------------|
-| **VDD** (Power) | `5V` | `3.3V` | PIN4 on sensor
-| **GND** | `GND` | `GND` | PIN3 on sensor
-| **SDA** (Data) | `A4 (SDA)` | `GPIO21 (SDA)` | PIN5 on sensor
-| **SCL** (Clock) | `A5 (SCL)` | `GPIO22 (SCL)` | PIN1 on sensor
+| **Sensor Pin**  | **Arduino (5V Logic)** | **ESP32 (3.3V Logic)** | **PIN on Sensor Module** |
+|---------------|----------------|----------------|----------------|
+| **VDD (Power)** | `5V` | `3.3V` | **Pin 4** |
+| **GND** | `GND` | `GND` | **Pin 3** |
+| **SDA (Data)** | `A4 (SDA)` | `GPIO21 (SDA)` | **Pin 5** |
+| **SCL (Clock)** | `A5 (SCL)` | `GPIO22 (SCL)` | **Pin 1** |
 
-> 🛠️ **Ensure pull-up resistors (4.7kΩ - 10kΩ) are used on SDA & SCL if not present on the module or Arduino board.**
+> 🛠 **Ensure pull-up resistors (4.7kΩ - 10kΩ) are used on SDA & SCL if not present on the module or Arduino board.**
+
 
 ---
 
@@ -27,4 +28,4 @@ This repository provides an **Arduino sketch** to interface with the **XGZP6867D
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/YOUR_USERNAME/XGZP6867D-Arduino.git
+   git clone https://github.com/LukaGitH/XGZP6867D-Arduino.git

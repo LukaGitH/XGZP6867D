@@ -1,6 +1,6 @@
 # XGZP6867D Pressure Sensor - Arduino Example
 
-This repository provides an **Arduino sketch** to interface with the **XGZP6867D**,**XGZP6847D** pressure sensor using the **I²C protocol**. It correctly reads **pressure (kPa)** and **temperature (°C)**, supporting both **positive and negative pressures**.
+This repository provides an **Arduino sketch** to interface with the **XGZP6867D**, **XGZP6847D** pressure sensor using the **I²C protocol**. It correctly reads **pressure (kPa)** and **temperature (°C)**, supporting both **positive and negative pressures**.
 
 ## 📊 Pressure Range Table
 

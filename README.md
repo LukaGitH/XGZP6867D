@@ -6,7 +6,7 @@ This repository provides an **Arduino sketch** to interface with the **XGZP6867D
 
 Below is the **pressure range (kPa) vs K value** table from the sensor datasheet:
 
-![Pressure Range Table](pressure_range_table.png)
+![Pressure Range Table](pressure_range_table.PNG)
 
 > **Note:** The `K` value is selected according to the **absolute pressure range**. Adjust it in the code accordingly.
 
